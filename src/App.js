@@ -7,6 +7,7 @@ function App() {
 
   const travelElements = data.map(element => {
     return <Card 
+    key={element.id}
     image={element.imageUrl}
     location={element.location}
     mapUrl={element.googleMapsUrl}
