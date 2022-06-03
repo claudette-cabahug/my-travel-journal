@@ -136,3 +136,90 @@ header {
   margin-top: 0;
   margin-bottom: 12px;
 }
+
+/* Media Queries */
+@media screen and (min-width: 550px) {
+  .App {
+    width: 1453px;
+    height: 914px;
+  }
+
+  .card--container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1020px;
+    height: 416px;
+    padding: 40px;
+    gap: 10px 36px;
+  }
+
+  .card--image {
+    width: 326px;
+    height: 416px;
+  }
+
+  .card--description {
+    font-size: 18px;
+    width: 652px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+  }
+
+  header {
+    width: 1453px;
+    margin-bottom: 40px;
+  }
+
+  .header--icon-world {
+    width: 48px;
+    height: 48px;
+  }
+
+  .header--text {
+    width: 418px;
+    height: 36px;
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    letter-spacing: .05px;
+  }
+
+  .card--icon-pin {
+    width: 14px;
+    height: 20px;
+  }
+
+  .card--location {
+    font-size: 20px;
+  }
+
+  .card--location-link {
+    font-size: 20px;
+    width: 326px;
+  }
+
+  .card--title {
+    font-size: 50px;
+    width: auto;
+    display: flex;
+    align-items: stretch;
+    padding-right: 0;
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+
+  .card--period {
+    font-size: 20px;
+    width: 400px;
+  }
+
+  .card--section-location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 24px;
+    width: fit-content;
+  }
+}
