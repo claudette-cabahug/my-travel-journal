@@ -166,7 +166,8 @@ header {
   }
 
   header {
-    width: 1453px;
+    /* width: 1453px; */
+    width: 100%;
     margin-bottom: 40px;
   }
 
