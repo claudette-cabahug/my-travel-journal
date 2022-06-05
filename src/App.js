@@ -21,7 +21,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {travelElements}
+      <div className="inner--container">
+        {travelElements}
+      </div>
     </div>
   );
 }
