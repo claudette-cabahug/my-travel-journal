@@ -5,24 +5,27 @@ import data from "./data"
 
 function App() {
 
-  const travelElements = data.map(element => {
-    return <Card 
-    key={element.id}
-    image={element.imageUrl}
-    location={element.location}
-    mapUrl={element.googleMapsUrl}
-    start={element.startDate}
-    end={element.endDate}
-    title={element.title}
-    blurb={element.description}
-    />
-  })
+  const travelElements = data
+
+  // const travelElements = data.map(element => {
+  //   return <Card 
+  //   key={element.id}
+  //   image={element.imageUrl}
+  //   location={element.location}
+  //   mapUrl={element.googleMapsUrl}
+  //   start={element.startDate}
+  //   end={element.endDate}
+  //   title={element.title}
+  //   blurb={element.description}
+  //   />
+  // })
 
   return (
     <div className="App">
       <Header />
       <div className="inner--container">
-        {travelElements}
+        {/* {travelElements} */}
+        <Card travelElements={travelElements} />
       </div>
     </div>
   );
